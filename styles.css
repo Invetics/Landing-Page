@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+}
+
+.header, .footer, .action {
+    background-color: #1f2937;
+    color: #f9faf8
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937
+}
+
+button {
+    color: #3882f6
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8
+}
