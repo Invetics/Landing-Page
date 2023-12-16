@@ -8,7 +8,13 @@ body {
 .header, .footer {
     display: flex;
     background-color: #1f2937;
-    color: #f9faf8
+    color: #f9faf8;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .quote {
@@ -16,9 +22,16 @@ body {
     background-color: #e5e7eb;
     color: #1f2937
 }
+
 .action {
     background-color: #3882f6;
 }
+
+.footer {
+    justify-content: center;
+    
+}
+
 button {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -28,10 +41,18 @@ button {
 }
 
 ul {
+    display: flex;
+    gap: 16px;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
     color: #f9faf8
+}
+
+.headertext {
+    font-size: 24px;
 }
