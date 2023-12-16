@@ -5,18 +5,26 @@ body {
 
 }
 
-.header, .footer, .action {
+.header, .footer {
+    display: flex;
     background-color: #1f2937;
     color: #f9faf8
 }
 
 .quote {
+    display: flex;
     background-color: #e5e7eb;
     color: #1f2937
 }
-
+.action {
+    background-color: #3882f6;
+}
 button {
-    color: #3882f6
+    background-color: #3882f6;
+    color: #e5e7eb;
+    outline: #e5e7eb;
+    border-color: #e5e7eb;
+
 }
 
 ul {
