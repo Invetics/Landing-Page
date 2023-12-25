@@ -136,6 +136,7 @@ img.info {
     padding: 50px;
     margin-left: 120px;
     margin-right: 120px;
+    max-width: fit-content;
     
 
 }
@@ -157,18 +158,21 @@ img.info {
 }
 
 .action {
+  
     background-color: #3882f6;
     margin: 80px;
     border-radius: 15px;
+
 }
 
 .actioncontainer {
     display: flex;
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 80px;
     margin-right: 80px;
-    gap: 50px;
+    gap: 20px;
+
 }
 
 .actiontext {
