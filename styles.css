@@ -97,9 +97,9 @@ button.herob {
     margin-left: 80px;
     margin-right: 80px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     gap: 50px;
-    flex: auto;
+    flex-grow: 0;
     margin-bottom: 20px;
     font-style: italic;
 }
@@ -111,6 +111,9 @@ button.herob {
 }
 
 .imagecontainer {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
     max-width: 120px;
     text-align: center;
 }
