@@ -100,7 +100,8 @@ button.herob {
     justify-content: space-between;
     gap: 50px;
     flex: auto;
-
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
 .infoheader {
