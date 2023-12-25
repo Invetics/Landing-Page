@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 0;
+    border: 0;
+
 
 }
 
@@ -13,8 +15,14 @@ body {
 }
 
 .header {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
 }
 
 .headertext {
@@ -23,13 +31,15 @@ body {
 }
 
 .hero {
-    display: flex;
-    flex: auto;
+   justify-content: space-between; 
 }
 
 .herocontainer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 0;
+    flex: auto;
 }
 
 .herotext {
@@ -37,11 +47,18 @@ body {
     flex-direction: column;
 
     margin-left: 50px;
-    width: 300px;
+    
     padding: 30px;
     gap: 0;
 
 }
+
+.heroimage {
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
 
 .heromaintext {
     font-size: 48px;
@@ -109,6 +126,7 @@ button.herob {
 }
 
 .footer {
+    display: flex;
     justify-content: center;
     
 }
