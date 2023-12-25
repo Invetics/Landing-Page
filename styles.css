@@ -90,11 +90,12 @@ button.herob {
 
 .informationcontainer {
     display: flex;
-    margin: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 50px;
-
+    flex: auto;
 
 }
 
@@ -121,8 +122,35 @@ button.herob {
     color: #1f2937
 }
 
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+
+}
+
+.quotetext {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 5;
+}
+
+.quoteauthor {
+    display: flex;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: end;
+}
+
 .action {
     background-color: #3882f6;
+    margin: 0;
 }
 
 .footer {
