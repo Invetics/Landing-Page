@@ -114,10 +114,10 @@ button.herob {
     text-align: center;
 }
 
-.info {
-    border-radius: 25px;
-    border-color: blue;
-    border-width: 2px;
+img.info {
+    border-radius: 15px;
+
+    border: 5px solid #3882f6;
 }
 
 .quote {
