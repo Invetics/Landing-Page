@@ -5,4 +5,4 @@ None of the info on the site should be taken seriously and all image credits are
 
 No Sun Tzu did not say that (sadly).
 
-May expand with JS to actually create the classes, resources and accounts :).
+May expand with JS to actually create the classes, resources and accounts :)
