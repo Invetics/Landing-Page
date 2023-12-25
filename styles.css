@@ -3,8 +3,6 @@ body {
     flex-direction: column;
     margin: 0;
     border: 0;
-
-
 }
 
 .header, .footer, .hero {
@@ -45,9 +43,8 @@ body {
 .herotext {
     display: flex;
     flex-direction: column;
-
     margin-left: 50px;
-    
+    justify-content: center; 
     padding: 30px;
     gap: 0;
 
@@ -57,6 +54,8 @@ body {
     display: flex;
     margin-right: 80px;
     margin-bottom: 50px;
+    flex: 1 1 auto;
+    max-width: 480px;
 }
 
 
@@ -65,6 +64,7 @@ body {
     font-weight: bolder;
     display: flex;
     text-align: start;
+    
     margin: 0;
 }
 
@@ -75,10 +75,14 @@ body {
 
 button.herob {
     display: flex;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     border-width: 0;
-    width: fit-content;
-    border-radius: 15px;
+    width: 100px;
+    border-radius: 8px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
 
 }
 
@@ -150,7 +154,41 @@ button.herob {
 
 .action {
     background-color: #3882f6;
-    margin: 0;
+    margin: 80px;
+    border-radius: 15px;
+}
+
+.actioncontainer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.actionheader {
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.actionword {
+    display: flex;
+    color: white;
+    font-style: italic;
+}
+
+.actionb {
+    display: flex;
+    border-radius: 15px;
+    border-width: 2px;
+    outline-color: #e5e7eb;
 }
 
 .footer {
